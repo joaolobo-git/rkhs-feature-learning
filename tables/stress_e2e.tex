@@ -1,0 +1,28 @@
+\begin{tabular}{lccc|ccc|ccc}
+\toprule
+scenario & $c_1$ & $\cos^2(\hat h_D,w^*)$ & $B$ & RF at $W_0$ & $K_0$ & linear & network & $K_D$ & $K_1$ \\
+\midrule
+original scenario & 0.73 & 0.72 & 49 & 0.84\,{\scriptsize$\pm$0.04} & 0.70\,{\scriptsize$\pm$0.02} & 0.71\,{\scriptsize$\pm$0.02} & 0.46\,{\scriptsize$\pm$0.01} & 0.22\,{\scriptsize$\pm$0.01} & 0.11\,{\scriptsize$\pm$0.00} \\
+\midrule
+$\tanh(2z)$ & 1.10 & 0.86 & 110 & 0.53\,{\scriptsize$\pm$0.05} & 0.20\,{\scriptsize$\pm$0.00} & 0.19\,{\scriptsize$\pm$0.00} & 0.24\,{\scriptsize$\pm$0.01} & 0.19\,{\scriptsize$\pm$0.00} & 0.16\,{\scriptsize$\pm$0.00} \\
+$\sin(2z)$ & 0.46 & 0.49 & 19 & 0.96\,{\scriptsize$\pm$0.03} & 0.92\,{\scriptsize$\pm$0.02} & 0.92\,{\scriptsize$\pm$0.02} & 0.92\,{\scriptsize$\pm$0.03} & 0.90\,{\scriptsize$\pm$0.02} & 0.87\,{\scriptsize$\pm$0.02} \\
+$\cos(2z)$ ($c_1=0$) & -0.00 & 0.00 & 0 & 1.02\,{\scriptsize$\pm$0.02} & 1.02\,{\scriptsize$\pm$0.02} & 1.03\,{\scriptsize$\pm$0.02} & 1.02\,{\scriptsize$\pm$0.02} & 1.02\,{\scriptsize$\pm$0.02} & 1.02\,{\scriptsize$\pm$0.02} \\
+\midrule
+$3z+2z^2+4\sin(2z)$ & 0.87 & 0.79 & 69 & 0.74\,{\scriptsize$\pm$0.04} & 0.53\,{\scriptsize$\pm$0.01} & 0.54\,{\scriptsize$\pm$0.01} & 0.41\,{\scriptsize$\pm$0.01} & 0.31\,{\scriptsize$\pm$0.01} & 0.24\,{\scriptsize$\pm$0.01} \\
+$\max(z,0)$ & 1.03 & 0.85 & 96 & 0.61\,{\scriptsize$\pm$0.05} & 0.30\,{\scriptsize$\pm$0.01} & 0.31\,{\scriptsize$\pm$0.01} & 0.17\,{\scriptsize$\pm$0.01} & 0.05\,{\scriptsize$\pm$0.00} & 0.02\,{\scriptsize$\pm$0.00} \\
+$e^{z}$ & 0.91 & 0.82 & 76 & 0.66\,{\scriptsize$\pm$0.07} & 0.42\,{\scriptsize$\pm$0.04} & 0.43\,{\scriptsize$\pm$0.04} & 0.29\,{\scriptsize$\pm$0.02} & 0.19\,{\scriptsize$\pm$0.02} & 0.13\,{\scriptsize$\pm$0.02} \\
+\midrule
+$\sigma=0$ & 0.73 & 0.73 & 49 & 0.84\,{\scriptsize$\pm$0.04} & 0.70\,{\scriptsize$\pm$0.02} & 0.70\,{\scriptsize$\pm$0.02} & 0.45\,{\scriptsize$\pm$0.01} & 0.20\,{\scriptsize$\pm$0.01} & 0.10\,{\scriptsize$\pm$0.00} \\
+$\sigma=1$ & 0.73 & 0.63 & 49 & 0.88\,{\scriptsize$\pm$0.04} & 0.75\,{\scriptsize$\pm$0.03} & 0.76\,{\scriptsize$\pm$0.03} & 0.56\,{\scriptsize$\pm$0.01} & 0.39\,{\scriptsize$\pm$0.02} & 0.16\,{\scriptsize$\pm$0.00} \\
+Student-$t_3$, sd $1$ & 0.73 & 0.62 & 49 & 0.86\,{\scriptsize$\pm$0.03} & 0.74\,{\scriptsize$\pm$0.03} & 0.74\,{\scriptsize$\pm$0.03} & 0.55\,{\scriptsize$\pm$0.01} & 0.39\,{\scriptsize$\pm$0.03} & 0.16\,{\scriptsize$\pm$0.01} \\
+\midrule
+Rademacher & 0.73 & 0.74 & 49 & 0.83\,{\scriptsize$\pm$0.03} & 0.69\,{\scriptsize$\pm$0.03} & 0.70\,{\scriptsize$\pm$0.03} & 0.45\,{\scriptsize$\pm$0.04} & 0.20\,{\scriptsize$\pm$0.02} & 0.10\,{\scriptsize$\pm$0.01} \\
+sphere $\sqrt{d}\,\mathbb{S}^{d-1}$ & 0.73 & 0.72 & 49 & 0.84\,{\scriptsize$\pm$0.04} & 0.70\,{\scriptsize$\pm$0.02} & 0.71\,{\scriptsize$\pm$0.02} & 0.46\,{\scriptsize$\pm$0.01} & 0.21\,{\scriptsize$\pm$0.01} & 0.10\,{\scriptsize$\pm$0.00} \\
+elliptical $t_5$ & 0.73 & 0.59 & 49 & 0.90\,{\scriptsize$\pm$0.04} & 0.76\,{\scriptsize$\pm$0.04} & 0.78\,{\scriptsize$\pm$0.04} & 0.67\,{\scriptsize$\pm$0.03} & 0.55\,{\scriptsize$\pm$0.05} & 0.36\,{\scriptsize$\pm$0.03} \\
+anisotropic $\Sigma$ & 0.73 & 0.51 & 49 & 0.81\,{\scriptsize$\pm$0.02} & 0.67\,{\scriptsize$\pm$0.02} & 0.69\,{\scriptsize$\pm$0.01} & 0.47\,{\scriptsize$\pm$0.04} & 0.24\,{\scriptsize$\pm$0.02} & 0.10\,{\scriptsize$\pm$0.01} \\
+\midrule
+$d=50$ & 0.73 & 0.74 & 13 & 0.85\,{\scriptsize$\pm$0.03} & 0.64\,{\scriptsize$\pm$0.05} & 0.71\,{\scriptsize$\pm$0.03} & 0.57\,{\scriptsize$\pm$0.06} & 0.23\,{\scriptsize$\pm$0.03} & 0.15\,{\scriptsize$\pm$0.01} \\
+$d=100$ & 0.73 & 0.73 & 21 & 0.85\,{\scriptsize$\pm$0.02} & 0.68\,{\scriptsize$\pm$0.03} & 0.72\,{\scriptsize$\pm$0.02} & 0.48\,{\scriptsize$\pm$0.02} & 0.21\,{\scriptsize$\pm$0.01} & 0.12\,{\scriptsize$\pm$0.01} \\
+$d=200$ & 0.73 & 0.73 & 36 & 0.83\,{\scriptsize$\pm$0.03} & 0.68\,{\scriptsize$\pm$0.02} & 0.70\,{\scriptsize$\pm$0.02} & 0.46\,{\scriptsize$\pm$0.04} & 0.21\,{\scriptsize$\pm$0.01} & 0.11\,{\scriptsize$\pm$0.01} \\
+\bottomrule
+\end{tabular}
